@@ -1,5 +1,5 @@
 HelloController = function ($Greeter, message) {
-  Greeter.say(message);
+  $Greeter.say(message);
 };
 
 yunw = {
