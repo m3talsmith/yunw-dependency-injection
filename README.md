@@ -81,7 +81,7 @@ Here's the full source for this presentation
 
 ``` javascript
 var HelloController = function ($Greeter, message) {
-  Greeter.say(message);
+  $Greeter.say(message);
 };
 
 var yunw = {
